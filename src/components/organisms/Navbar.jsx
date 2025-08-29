@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import Routes from "@/routes/Routes";
 import { useTranslation } from "react-i18next";
-import { useLanguage } from "@/contexts/languageContext";
+import { useLanguage } from "@/contexts/LanguageContext";
 import ButtonTheme from "../atoms/ButtonTheme";
 import * as Icons from "@/assets/icons/icons";
 
