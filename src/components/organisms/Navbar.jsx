@@ -6,6 +6,7 @@ import { useLanguage } from "./../../contexts/LanguageContext.jsx";
 import ButtonTheme from "../atoms/ButtonTheme";
 import * as Icons from "@/assets/icons/icons";
 
+
 function Navbar() {
  const { t, i18n } = useTranslation();
   const { changeLanguage } = useLanguage();
